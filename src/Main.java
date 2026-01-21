@@ -1,6 +1,6 @@
 public class Main {
     public  static void main(String[] args) {
-        StringLengthComparator stringCompare = new StringLengthComparator() {
+        IStringLengthComparator stringCompare = new IStringLengthComparator() {
             @Override
             public String compare(String a, String b) {
                 return a.length() <= b.length() ? a : b;
