@@ -1,3 +1,3 @@
 public interface StringLengthComparator {
-    public String compare(String a, String b);
+    String compare(String a, String b);
 }
